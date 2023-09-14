@@ -39,6 +39,10 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  cursor: url("/assets/img/cursorwhite.png") 4 4, auto;
+}a,
+button:hover {
+  cursor: url("/assets/img/cursorwhite1.png") 4 4, auto;
 }
 body {
   margin: 0;
@@ -1635,4 +1639,19 @@ body {
 .outer-nav li.is-vis:nth-child(5) {
   -webkit-transition-delay: 0.16s;
   transition-delay: 0.16s;
+}
+.cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f382009f;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.cursor.link {
+  width: 25px;
+  height: 25px;
 }
