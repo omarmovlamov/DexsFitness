@@ -19,5 +19,4 @@ If you want to explore my project or contribute, please visit the GitHub reposit
   <li>Clone this project: git clone https://github.com/omarmovlamov/DexsFitness</li>
   <li>Run HTML. (You can use Live Server)</li>
 </ol>
-</br>
-</br><p>This project was created by making additions and many changes to Bucky Maler's project.</p>
+
